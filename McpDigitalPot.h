@@ -43,9 +43,9 @@ class McpDigitalPot
     // bool hw_shutdown();
 
   protected:
-    const static float        rW_ohms_typical = 117.50;
-    const static unsigned int resolution_7bit = 128;
-    const static unsigned int resolution_8bit = 256;
+    constexpr const static float        rW_ohms_typical = 117.50;
+    const static unsigned int           resolution_7bit = 128;
+    const static unsigned int           resolution_8bit = 256;
 
     // Other devices can be configured below vv as per the device numbering scheme:
     // MCP4N-- N=1 single pot, N=2 dual pot
